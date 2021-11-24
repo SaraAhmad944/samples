@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211112T173209Z
+DTSTART;TZID=America/Los_Angeles:20211117T090000
+DTEND;TZID=America/Los_Angeles:20211117T100000
+SUMMARY:TFCB Onboarding Program
+EXDATE;TZID=America/Los_Angeles:20211124T090000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20211222T180000;INTERVAL=1;BYDAY=WE
+UID:ZOOM92588226680
+TZID:America/Los_Angeles
+DESCRIPTION:Join from a PC\, Mac\, iPad\, iPhone or Android device:\n    
+ Please click this URL to join. https://hashicorp.zoom.us/w/92588226680?t
+ k=MQiGoYKBeEPGo7JEXwfUJEQYGumMI2PbWNVJRLGNV74.DQMAAAAVjrA4eBZqY21VWDJZTV
+ RVeV9GX2h0aGd0WE1BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=NWdoMXFwYStETmRHdlZ
+ tVnFYalVkdz09\n    Passcode: 378597\n	Description: Hi TFCB Onboarding Pr
+ ogram participants\,\n\nWelcome to the program registration! Over the ne
+ xt several weeks\, you will be joining other community members for a ser
+ ies of webinars\, workshops\, and office hour sessions optimized for get
+ ting up and running quickly. \n\nPlease register for the series of works
+ hops and office hours to be included in the 8 week program. This will be
+  a recurring webinar so you can use this Zoom link to join all the sessi
+ ons.\n\nSchedule outline: \nWeek One Oct 27 - Registration\nWeek Two Nov
+  1 - Program Kickoff\nWeek Three Nov 3 - Webinar: Terraform Cloud Overvi
+ ew\nWeek Four Nov 10 - Community Office Hours\nWeek Five Nov 17 - Webina
+ r: Terraform Cloud Modules\, Workspaces\, Git Repo Structure\nWeek Six D
+ ec 1 - Community Office Hour\nWeek Seven Dec 8- Webinar: Terraform Cloud
+  Agents\, RBAC\, Sentinel\nWeek Eight Dec 15 - Program Closing\n\nThank 
+ you\,\nSandra Liu and the CS Team\n\nOr One tap mobile:\n    +1669900683
+ 3\,\,92588226680# US (San Jose)\n    +12532158782\,\,92588226680# US (Ta
+ coma)\n\nOr join by phone:\n    Dial(for higher quality\, dial a number 
+ based on your current location):\n        US: +1 669 900 6833  or +1 253
+  215 8782  or +1 346 248 7799  or +1 312 626 6799  or +1 646 558 8656  o
+ r +1 301 715 8592 \n    Webinar ID: 925 8822 6680\n    International num
+ bers available: https://hashicorp.zoom.us/u/adQzWyWr51\n\n
+LOCATION:https://hashicorp.zoom.us/w/92588226680?tk=MQiGoYKBeEPGo7JEXwfUJ
+ EQYGumMI2PbWNVJRLGNV74.DQMAAAAVjrA4eBZqY21VWDJZTVRVeV9GX2h0aGd0WE1BAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAA&pwd=NWdoMXFwYStETmRHdlZtVnFYalVkdz09
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
